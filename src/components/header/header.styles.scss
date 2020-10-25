@@ -1,0 +1,76 @@
+.header {
+    box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+
+    &-left {
+        font-family: 'Roboto', sans-serif;
+        color: blue;
+        font-weight: 900;
+    }
+
+    &-burger-logo {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 10px 0;
+    }
+
+    &-middle {
+        display: flex;
+        width: 80%;
+        margin: 1rem auto;
+        border-bottom: 1px solid rgba(79, 79, 79, 0.07);
+
+        .search-icon {
+            width: 10%;
+        }
+
+        #s {
+            border: none;
+            width: 80%;
+        }
+    }
+
+    &-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-right {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+
+        .header-link {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-bottom: 5%;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .name-and-greeting {
+                font-size: 12px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 5%;
+
+                .greeting {
+                    align-self: center;
+                }
+            }
+
+            .profile-pic {
+                margin-bottom: 1%;
+
+                img {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

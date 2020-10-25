@@ -1,0 +1,115 @@
+.sidebar {
+    box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+    width: 80%;
+
+    .gen-invoice {
+        width: 163px;
+        height: 33px;
+        background: #27AE60;
+        border-radius: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 40px;
+        border: none;
+        color: white;
+    }
+
+    .main {
+        margin: 30px 0;
+
+        &-title {
+            font-size: 11px;
+            color: #647787;
+        }
+
+        &-link {
+            display: flex;
+            height: 1.3rem;
+
+            &:hover {
+                border-left: 4px solid #041933;                            
+                background: #1875F0;
+                opacity: 0.3;
+                
+                a {
+                    color: white;
+                }
+            }
+
+            a {
+                margin-left: 5%;
+                align-self: center;                
+            }
+        }
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        &-title {
+            font-size: 11px;
+            color: #647787;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+
+            .link {
+                display: flex;
+                margin-bottom: 10px;
+                height: 1.3rem;
+
+                &:hover {
+                    border-left: 4px solid blue;                            
+                    background: #1875F0;
+                    opacity: 0.3;
+                    
+                    a {
+                        color: white;
+                    }
+                }
+
+                a {
+                    margin-left: 5%;
+                    align-self: center;
+                }
+            }
+        }
+    }
+
+    .link-m {
+        display: flex;
+        margin-bottom: 10px;
+        height: 1.3rem;
+
+        &:hover {
+            border-left: 4px solid blue;                            
+            background: #1875F0;
+            opacity: 0.3;
+            
+            a {
+                color: white;
+            }
+        }
+
+        a {
+            margin-left: 5%;
+            align-self: center;
+        }
+    }
+
+    .pl, .link-icon, .link-m-icon {
+        padding-left: 40px;
+    }
+
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 15px;
+}
